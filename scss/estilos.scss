@@ -1,0 +1,19 @@
+// UTILITIES
+@import "utilities/variantes";
+@import "utilities/mixin";
+@import "main";
+
+// BASE
+@import "base/reset";
+@import "base/typo";
+
+// LAYOUT
+@import "layout/aside";
+@import "layout/footer";
+@import "layout/header";
+
+@import "components/buttons";
+
+// VIEWS
+@import "views/home.scss";
+@import "views/_productos.scss"

@@ -1,0 +1,13 @@
+@mixin fonts ($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+}
+
+@mixin miBanner {
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 300px;
+    }
+
+    

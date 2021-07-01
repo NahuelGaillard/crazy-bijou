@@ -1,0 +1,46 @@
+.containerSection {
+    margin: auto;
+    max-width: 1080px;
+    height: auto;
+    .containerProducto {
+        background-color: $colorSkin;
+        border: solid 3px rgb(0, 0, 0);
+        width: 260px;
+        margin: 10px auto;
+        h6 {
+            color:$colorBlack;
+        }
+        img {
+            width: 210px;
+            height: auto;
+            border: black 2px solid;
+            margin: auto;
+        }
+        p {
+            margin: 0 1rem;
+        }
+        span {
+            width: 235px;
+            height: 70px;
+            border: 1px solid rgb(43, 40, 40);
+            margin: 0 10px 10px 10px;
+            background-color: white;
+        }
+    }
+}
+#titleProducto {
+    color: $colorLigthPink;
+    -webkit-text-stroke: 1px black;
+}
+
+@media all and (min-width: 992px){
+    .containerSection{
+        min-height: 1080px;
+        img {
+            &:active {
+                transition: 250ms linear;
+                transform: scale(2);
+            }
+        }
+    }
+}

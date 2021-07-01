@@ -1,0 +1,12 @@
+@mixin miBoton {
+    background-color: $colorLigthPink;
+    font-size: 1rem;
+    padding: 1em;
+    &:hover{
+        transition: 100ms linear;
+        transform: scale(1.1);
+    }
+}
+.miBoton {
+    @include miBoton
+}

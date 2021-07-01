@@ -1,0 +1,31 @@
+@each $type, $val in $weight {
+    .type-#{$type}{
+        font-weight: $val;
+    }
+}
+
+@each $t, $val in $size {
+    .type-#{$t}{
+        font-size: $val;
+    }
+}
+
+body {
+    @include bgMarble;
+}
+
+a {
+    color: $colorWhite;
+    text-decoration: none;
+    &:active {
+        color: $colorWhite;
+        text-decoration: none;
+    }
+    &:hover {
+        color: $colorWhite;
+        text-decoration: none;
+    }
+    &:focus {
+        text-decoration: none;
+    }
+}

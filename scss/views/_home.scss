@@ -1,0 +1,34 @@
+section {
+    margin-top: 30px;
+    .tituloBanner {
+        color: $colorWhite;
+    }
+    .bannerAnillos {
+        @include miBanner;
+        background-image: url(../media/anillos.jpg);
+    }
+    .bannerPulseras {
+        @include miBanner;
+        background-image: url(../media/pulseras.jpg);
+
+    }
+    .bannerCadenas {
+        @include miBanner;
+        background-image: url(../media/cadenas.jpg);
+
+    }
+    .bannerDijes {
+        @include miBanner;
+        background-image: url(../media/dijes.jpg);
+
+    }
+}
+
+@media all and (min-width: 992px){
+   section {
+       .bannerAnillos, .bannerPulseras, .bannerCadenas, .bannerDijes {
+          width: 400px ;
+          height: 550px;
+        }
+    }
+}

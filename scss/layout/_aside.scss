@@ -1,0 +1,25 @@
+.aside {
+    position: fixed;
+    top: 40%;
+    right: 5px;
+    z-index: 10;
+    li {
+        list-style: none; 
+        &:hover{
+            transition: 100ms linear;
+            transform: scale(1.1);
+        }
+        .asideIcon{
+            color: $colorfuchsia;
+            &:hover {
+              color: $colorBlack;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 992px){
+    .asideIcon{
+        font-size: 1.2em;
+     }
+}

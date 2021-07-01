@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?a8e453e809fba40f78110693c5e399f6") format("truetype"),
+url("./flaticon.woff?a8e453e809fba40f78110693c5e399f6") format("woff"),
+url("./flaticon.woff2?a8e453e809fba40f78110693c5e399f6") format("woff2"),
+url("./flaticon.eot?a8e453e809fba40f78110693c5e399f6#iefix") format("embedded-opentype"),
+url("./flaticon.svg?a8e453e809fba40f78110693c5e399f6#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-home:before {
+    content: "\f101";
+}
+.flaticon-letter:before {
+    content: "\f102";
+}
+.flaticon-shopping-bag:before {
+    content: "\f103";
+}
+.flaticon-shopping-bag-1:before {
+    content: "\f104";
+}
+.flaticon-whatsapp-1:before {
+    content: "\f105";
+}
+.flaticon-facebook-logo:before {
+    content: "\f106";
+}
+.flaticon-instagram-2:before {
+    content: "\f107";
+}
+.flaticon-whatsapp-2:before {
+    content: "\f108";
+}
+.flaticon-marcador-de-posicion:before {
+    content: "\f109";
+}
+.flaticon-correo-electronico:before {
+    content: "\f10a";
+}
+.flaticon-compartir:before {
+    content: "\f10b";
+}
