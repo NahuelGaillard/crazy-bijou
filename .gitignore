@@ -34,6 +34,3 @@ logs
 *.sql
 
 # mis carpetas
-
-node_modules/
-
