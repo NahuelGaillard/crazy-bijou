@@ -29,11 +29,15 @@
     }
 }
 #titleProducto {
+    margin-top: 180px;
     color: $colorLigthPink;
     -webkit-text-stroke: 1px black;
 }
 
 @media all and (min-width: 992px){
+    #titleProducto {
+        margin-top: 140px;
+    }
     .containerSection{
         min-height: 1080px;
         img {

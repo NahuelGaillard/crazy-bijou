@@ -85,35 +85,42 @@ a {
   .containerFooter .footerIcon {
     color: #121212; }
 
-@media all and (min-width: 992px) {
-  .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; } }
-
 .header {
+  position: fixed;
   background-color: #FCD6DB;
   width: 100%;
   border: black 2px solid;
   box-shadow: 0 10px 20px -2px black;
-  margin-top: 1rem;
-  z-index: 100; }
+  z-index: 100;
+  top: 0; }
   .header i {
     font-size: 1em;
     padding-right: 1px;
     color: #121212; }
+  .header .tituloHeader {
+    height: 70px; }
   .header #logo {
-    width: 140px;
+    position: absolute;
+    top: -10px;
+    margin: 0px auto;
+    height: auto;
+    width: 150px;
     border-radius: 50%;
     border: black 2px solid;
     box-shadow: 0 10px 20px -2px black; }
   .header img {
-    min-width: 200px; }
+    min-width: 150px; }
   .header li a:hover, .header i:hover {
     color: rgba(230, 113, 241, 0.73);
-    transition: 100ms linear;
-    transform: scale(1.1); }
+    transition: 100ms linear; }
+
+@media all and (min-width: 992px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    top: 15px; } }
 
 .miBoton {
   background-color: #f39bb2d5;
@@ -124,7 +131,7 @@ a {
     transform: scale(1.1); }
 
 section {
-  margin-top: 30px; }
+  margin-top: 180px; }
   section .tituloBanner {
     color: #fff; }
   section .bannerAnillos {
@@ -153,9 +160,11 @@ section {
     background-image: url(../media/dijes.jpg); }
 
 @media all and (min-width: 992px) {
-  section .bannerAnillos, section .bannerPulseras, section .bannerCadenas, section .bannerDijes {
-    width: 400px;
-    height: 550px; } }
+  section {
+    margin-top: 140px; }
+    section .bannerAnillos, section .bannerPulseras, section .bannerCadenas, section .bannerDijes {
+      width: 400px;
+      height: 550px; } }
 
 .containerSection {
   margin: auto;
@@ -183,10 +192,13 @@ section {
       background-color: white; }
 
 #titleProducto {
+  margin-top: 180px;
   color: #f39bb2d5;
   -webkit-text-stroke: 1px black; }
 
 @media all and (min-width: 992px) {
+  #titleProducto {
+    margin-top: 140px; }
   .containerSection {
     min-height: 1080px; }
     .containerSection img:active {

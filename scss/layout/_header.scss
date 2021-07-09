@@ -1,19 +1,13 @@
-@media all and (min-width: 992px){
-    .header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
-}
+
 
 .header {
+    position: fixed;
     background-color: $colorSkin;
     width: 100%;
     border: black 2px solid;
     box-shadow: 0 10px 20px -2px black;
-    margin-top: 1rem;
     z-index: 100;
+    top: 0;
     i {
         font-size: 1em;
         padding-right: 1px;
@@ -22,18 +16,33 @@
     .active {
         @extend .type-bold
     }
+    .tituloHeader {
+        height: 70px;
+    }
     #logo {
-        width: 140px;
+        position: absolute;
+        top: -10px;
+        margin: 0px auto;
+        height: auto;
+        width: 150px;
         border-radius: 50%;
         border: rgb(0, 0, 0) 2px solid ;
         box-shadow: 0 10px 20px -2px black;
     }
     img {
-        min-width: 200px;
+        min-width: 150px;
     }
     li a:hover, i:hover {
         color: $colorfuchsia ;
         transition: 100ms linear;
-        transform: scale(1.1);
+    }
+}
+@media all and (min-width: 992px){
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100px;
+        top: 15px;
     }
 }
