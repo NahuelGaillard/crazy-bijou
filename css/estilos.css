@@ -171,22 +171,25 @@ section {
   max-width: 1080px;
   height: auto; }
   .containerSection .containerProducto {
-    background-color: #FCD6DB;
-    border: solid 3px black;
+    background-color: #f39bb2d5;
+    border: solid 2px black;
     width: 260px;
-    margin: 10px auto; }
+    margin: 16px auto;
+    box-shadow: 0px 27px 45px -14px rgba(0, 0, 0, 0.75);
+    border-radius: 6px; }
     .containerSection .containerProducto h6 {
       color: #121212; }
     .containerSection .containerProducto img {
-      width: 210px;
+      width: 250px;
       height: auto;
       border: black 2px solid;
-      margin: auto; }
+      margin: auto;
+      border-radius: 3px; }
     .containerSection .containerProducto p {
       margin: 0 1rem; }
-    .containerSection .containerProducto span {
+    .containerSection .containerProducto .descripcionProducto {
       width: 235px;
-      height: 70px;
+      height: 56px;
       border: 1px solid #2b2828;
       margin: 0 10px 10px 10px;
       background-color: white; }

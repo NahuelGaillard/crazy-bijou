@@ -3,25 +3,29 @@
     max-width: 1080px;
     height: auto;
     .containerProducto {
-        background-color: $colorSkin;
-        border: solid 3px rgb(0, 0, 0);
+        background-color: $colorLigthPink;
+        border: solid 2px rgb(0, 0, 0);
         width: 260px;
-        margin: 10px auto;
+        margin: 16px auto;
+        box-shadow: 0px 27px 45px -14px rgba(0,0,0,0.75);
+        border-radius: 6px;
         h6 {
             color:$colorBlack;
         }
         img {
-            width: 210px;
+            width: 250px;
             height: auto;
             border: black 2px solid;
             margin: auto;
+            border-radius: 3px;
+
         }
         p {
             margin: 0 1rem;
         }
-        span {
+        .descripcionProducto {
             width: 235px;
-            height: 70px;
+            height: 56px;
             border: 1px solid rgb(43, 40, 40);
             margin: 0 10px 10px 10px;
             background-color: white;
