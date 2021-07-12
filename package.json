@@ -1,17 +1,32 @@
 {
-  "name": "nahuel",
+  "name": "crazybijou",
   "version": "1.0.0",
-  "description": "Crazy Bijou Acero quirúrgico",
-  "main": "index.html",
-
+  "description": "Crazy bijou acero quirúrgico",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NahuelGaillard/crazy-bijou.git"
+  },
+  "keywords": [
+    "ACERO",
+    "QUIRURGICO",
+    "ANILLOS",
+    "CADENAS",
+    "PULSERAS",
+    "LLAVEROS",
+    "ACCESORIOS"
+  ],
   "author": "Nahuel Gaillard",
   "license": "ISC",
-  
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "bootstrap": "^4.5.3",
