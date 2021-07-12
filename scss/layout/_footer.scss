@@ -15,6 +15,9 @@
 
     }
     .containerContacto {
+        a {
+            color: $colorBlack;
+        }
     
         .footerInfo {
         line-height: 3em;
