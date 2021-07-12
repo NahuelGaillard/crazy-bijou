@@ -1,7 +1,9 @@
 {
   "name": "nahuel",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Crazy Bijou Acero quirúrgico",
+  "main": "index.html",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
@@ -9,13 +11,11 @@
   },
   "author": "Nahuel Gaillard",
   "license": "ISC",
-  "description": "",
+  
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
-    "bootstrap": "^5.0.1"
-  },
-  "devDependencies": {
-    "node-sass": "^6.0.0",
-    "nodemon": "^2.0.7"
+    "bootstrap": "^4.5.3",
+    "jquery":"^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
