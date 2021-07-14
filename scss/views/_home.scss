@@ -1,7 +1,9 @@
 section {
-    margin-top: 180px;
     .tituloBanner {
         color: $colorWhite;
+        -webkit-text-stroke: 1px 27px 45px -14px black;
+        text-shadow: 1px 3px 1px black;
+        // background-color: $colorBlack;
     }
     .bannerAnillos {
         @include miBanner;
@@ -10,27 +12,19 @@ section {
     .bannerPulseras {
         @include miBanner;
         background-image: url(../media/pulseras.jpg);
-
     }
     .bannerCadenas {
         @include miBanner;
         background-image: url(../media/cadenas.jpg);
-
     }
     .bannerDijes {
         @include miBanner;
         background-image: url(../media/dijes.jpg);
-
     }
 }
-
 @media all and (min-width: 992px){
-   section {
-    margin-top: 140px;
-
        .bannerAnillos, .bannerPulseras, .bannerCadenas, .bannerDijes {
           width: 400px ;
           height: 550px;
         }
-    }
 }

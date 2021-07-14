@@ -1,5 +1,3 @@
-
-
 .header {
     position: fixed;
     background-color: $colorSkin;
@@ -9,8 +7,8 @@
     z-index: 100;
     top: 0;
     i {
-        font-size: 1em;
-        padding-right: 1px;
+        font-size: 1rem;
+        padding-right: 0.25rem;
         color: $colorBlack;
     }
     .active {
@@ -44,5 +42,12 @@
         align-items: center;
         height: 100px;
         top: 15px;
+    }
+}
+@media all and (min-width: 992px) and (max-width: 1082px){
+    .header {
+        i {
+            font-size: 0.80rem;
+        }
     }
 }

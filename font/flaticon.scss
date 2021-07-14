@@ -2,11 +2,11 @@ $flaticon-font: "flaticon";
 
 @font-face {
     font-family: $flaticon-font;
-    src: url("./flaticon.ttf?a8e453e809fba40f78110693c5e399f6") format("truetype"),
-url("./flaticon.woff?a8e453e809fba40f78110693c5e399f6") format("woff"),
-url("./flaticon.woff2?a8e453e809fba40f78110693c5e399f6") format("woff2"),
-url("./flaticon.eot?a8e453e809fba40f78110693c5e399f6#iefix") format("embedded-opentype"),
-url("./flaticon.svg?a8e453e809fba40f78110693c5e399f6#flaticon") format("svg");
+    src: url("./flaticon.ttf?eca9f380d152b0f2ae1d5c2ea8bf74e7") format("truetype"),
+url("./flaticon.woff?eca9f380d152b0f2ae1d5c2ea8bf74e7") format("woff"),
+url("./flaticon.woff2?eca9f380d152b0f2ae1d5c2ea8bf74e7") format("woff2"),
+url("./flaticon.eot?eca9f380d152b0f2ae1d5c2ea8bf74e7#iefix") format("embedded-opentype"),
+url("./flaticon.svg?eca9f380d152b0f2ae1d5c2ea8bf74e7#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -32,6 +32,8 @@ $flaticon-map: (
     "marcador-de-posicion": "\f109",
     "correo-electronico": "\f10a",
     "compartir": "\f10b",
+    "reloj": "\f10c",
+    "reloj-1": "\f10d",
 );
 
 .flaticon-home:before {
@@ -66,4 +68,10 @@ $flaticon-map: (
 }
 .flaticon-compartir:before {
     content: map-get($flaticon-map, "compartir");
+}
+.flaticon-reloj:before {
+    content: map-get($flaticon-map, "reloj");
+}
+.flaticon-reloj-1:before {
+    content: map-get($flaticon-map, "reloj-1");
 }

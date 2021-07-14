@@ -1,12 +1,21 @@
 @mixin miBoton {
-    background-color: $colorLigthPink;
-    font-size: 1rem;
-    padding: 1em;
-    &:hover{
-        transition: 100ms linear;
-        transform: scale(1.1);
-    }
+    font-size: 1.1rem;
+    padding: 0.8em;
 }
 .miBoton {
-    @include miBoton
+    @include miBoton;
+    background-color: $colorLigthPink;
+        &:hover{
+            transition: 100ms linear;
+            transform: scale(1.1);
+        }
+}
+
+.botonModal {
+    @include miBoton;
+    background-color: $colorGrey;
+    margin-bottom: 10px;
+    // border: solid 1px rgb(0, 0, 0);
+    // border-radius: 6px;
+
 }

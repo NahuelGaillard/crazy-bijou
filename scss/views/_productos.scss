@@ -1,7 +1,4 @@
-.containerSection {
-    margin: auto;
-    max-width: 1080px;
-    height: auto;
+section {
     .containerProducto {
         background-color: $colorLigthPink;
         border: solid 2px rgb(0, 0, 0);
@@ -18,7 +15,6 @@
             border: black 2px solid;
             margin: auto;
             border-radius: 3px;
-
         }
         p {
             margin: 0 1rem;
@@ -28,22 +24,26 @@
             height: 56px;
             border: 1px solid rgb(43, 40, 40);
             margin: 0 10px 10px 10px;
-            background-color: #ffffff68;
+            background-color: $colorGrey;
         }
     }
 }
 #titleProducto {
-    margin-top: 180px;
     color: $colorLigthPink;
     -webkit-text-stroke: 1px black;
+    margin-top: 180px;
 }
 
+@media all and (min-width: 768px) and (max-width: 992px){
+    #titleProducto {
+        margin-top: 130px;
+    }
+}
 @media all and (min-width: 992px){
     #titleProducto {
-        margin-top: 140px;
+        margin-top: 150px;
     }
-    .containerSection{
-        min-height: 1080px;
+    section{
         img {
             &:active {
                 transition: 250ms linear;

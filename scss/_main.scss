@@ -3,17 +3,19 @@
         font-weight: $val;
     }
 }
-
 @each $t, $val in $size {
     .type-#{$t}{
         font-size: $val;
     }
 }
-
 body {
     @include bgMarble;
 }
-
+section {
+    margin: auto;
+    max-width: 1080px;
+    height: auto;
+}
 a {
     color: $colorWhite;
     text-decoration: none;
@@ -29,3 +31,9 @@ a {
         text-decoration: none;
     }
 }
+
+// @media all and (min-width: 992px){
+//     section{
+//         min-height: 720px;
+//     }
+// }
