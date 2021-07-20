@@ -54,25 +54,25 @@
 <!-- Section -->
 	<h1 id="titleProducto" class="type-lg type-bold text-center text-uppercase" >Contactanos</h1>
 	<section class="p-1">
-		<div class="containerContactanos m-1 p-3 d-flex flex-wrap text-center type-md">
+		<div class="containerContactanos m-1 p-3 d-flex flex-wrap text-center">
 			<div class="m-auto p-1 col-11 m-lg-0 col-lg-6 order-1">
-				<form class="col-12" action="">
+				<form class="col-12">
 					<div>
 						<div class="form-group text-center">
-							<label class="type-md" for="nombre">Nombre:</label>
+							<label for="nombre">Nombre:</label>
 							<input class="form-control border border-dark" type="text" placeholder="Tu nombre" id="nombre" required>
 						</div>
 						<div class="form-group">
-							<label class="type-md" for="corre">Correo:</label>
+							<label for="corre">Correo:</label>
 							<input class="form-control border border-dark" type="email" placeholder="Tu email" id="correo" required>
 						</div>
 						<div class="form-group ">
-							<label class="" for="textArea">Tu mensaje:</label>
+							<label for="textArea">Tu mensaje:</label>
 							<textarea class="form-control border border-dark" id="textArea" rows="3" placeholder="Dejanos tu mensaje." required></textarea>
 						</div>
 					</div>
 					<div>
-						<button type="button" class="btn border border-dark botonModal" data-toggle="modal" data-target="#exampleModal"> Enviar</button>
+						<button type="button" class="btn border border-dark botonModal" data-toggle="modal" data-target="#exampleModal">Enviar</button>
 					</div>
 				</form>			
 			</div>
@@ -86,9 +86,7 @@
 			<div class="modal-dialog">
 				<div class="modal-content border border-dark">
 					<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 					</div>
 					<div class="modal-body text-center type-md text-success">
 						¡Gracias por tu mensaje!

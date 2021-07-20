@@ -246,9 +246,13 @@ section .containerProducto {
   box-shadow: 0px 27px 45px -14px rgba(0, 0, 0, 0.75);
   border: solid 2px black;
   min-height: 320px; }
-
-label {
-  color: #121212; }
-
-input {
-  box-shadow: 0px 27px 45px -14px rgba(0, 0, 0, 0.75); }
+  .containerContactanos input {
+    box-shadow: 0px 27px 45px -14px rgba(0, 0, 0, 0.75); }
+    .containerContactanos input:focus {
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.75); }
+  .containerContactanos textarea {
+    resize: none; }
+    .containerContactanos textarea:focus {
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.75); }
+  .containerContactanos .botonModal:focus {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.75); }
