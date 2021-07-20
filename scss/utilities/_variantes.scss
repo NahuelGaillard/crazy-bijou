@@ -16,7 +16,7 @@ $colorGrey: #ffffff68;
 
 // background
 @mixin bgMarble {
-    background-image: url("https://static.vecteezy.com/system/resources/previews/001/781/268/non_2x/marble-texture-design-seamless-pattern-black-and-white-vector.jpg");
+    background-image: url(/media/backgroundMarble.jpg);
 }
 @mixin bgGradientRose {
     background: linear-gradient(to bottom, rgba(254,187,187,1) 50%,rgba(234,173,173,1) 62%,rgba(234,173,173,1) 62%,rgba(73,55,55,1) 100%);
