@@ -1,0 +1,9 @@
+.containerAcerca {
+    @include article;
+    min-height: 320px;
+    img {
+        @include imgArticle;
+        border: 2px solid $colorBlack;
+        max-width: 660px;
+    }
+}

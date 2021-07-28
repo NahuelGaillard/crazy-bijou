@@ -10,12 +10,8 @@
             transform: scale(1.1);
         }
 }
-
 .botonModal {
     @include miBoton;
     background-color: $colorGrey;
     margin-bottom: 10px;
-    // border: solid 1px rgb(0, 0, 0);
-    // border-radius: 6px;
-
 }

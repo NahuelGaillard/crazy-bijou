@@ -2,8 +2,13 @@
     position: relative;
     padding-bottom: 10em;
     margin-top: 10em;
-    background: linear-gradient(to bottom, rgba(254,187,187,1) 50%,rgba(234,173,173,1) 62%,rgba(234,173,173,1) 62%,rgba(73,55,55,1) 100%);
     border: black 2px solid;
+    @include bgGradientRose;
+    img {
+        width: 100%;
+        min-width: 320px;
+        max-width: 500px;
+    }
     .containerContacto {
         a {
             color: $colorBlack;
@@ -13,10 +18,13 @@
         letter-spacing: 1px;
         list-style: none;
         padding-left: 30px;
-        border-left: 1px solid black;
         }
     }
     .footerIcon {
         color: $colorBlack;
+    }
+    .footerDireccion {
+        min-height: 50px;
+        margin-bottom: 10px;
     }
 }
