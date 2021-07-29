@@ -1,10 +1,10 @@
 @font-face {
     font-family: "flaticon";
-    src: url("./flaticon.ttf?eca9f380d152b0f2ae1d5c2ea8bf74e7") format("truetype"),
-url("./flaticon.woff?eca9f380d152b0f2ae1d5c2ea8bf74e7") format("woff"),
-url("./flaticon.woff2?eca9f380d152b0f2ae1d5c2ea8bf74e7") format("woff2"),
-url("./flaticon.eot?eca9f380d152b0f2ae1d5c2ea8bf74e7#iefix") format("embedded-opentype"),
-url("./flaticon.svg?eca9f380d152b0f2ae1d5c2ea8bf74e7#flaticon") format("svg");
+    src: url("./flaticon.ttf?b0dd1633a6b00e2b3d598d9ebad5bb9e") format("truetype"),
+url("./flaticon.woff?b0dd1633a6b00e2b3d598d9ebad5bb9e") format("woff"),
+url("./flaticon.woff2?b0dd1633a6b00e2b3d598d9ebad5bb9e") format("woff2"),
+url("./flaticon.eot?b0dd1633a6b00e2b3d598d9ebad5bb9e#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b0dd1633a6b00e2b3d598d9ebad5bb9e#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -56,4 +56,7 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 }
 .flaticon-reloj-1:before {
     content: "\f10d";
+}
+.flaticon-boton-de-informacion:before {
+    content: "\f10e";
 }

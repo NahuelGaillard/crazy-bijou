@@ -78,7 +78,7 @@ a {
     width: 100%;
     min-width: 320px;
     max-width: 500px; }
-  .containerFooter .containerContacto a {
+  .containerFooter a {
     color: #121212; }
   .containerFooter .containerContacto .footerInfo {
     line-height: 3em;

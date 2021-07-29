@@ -9,10 +9,10 @@
         min-width: 320px;
         max-width: 500px;
     }
+    a {
+        color: $colorBlack;
+    }
     .containerContacto {
-        a {
-            color: $colorBlack;
-        }
         .footerInfo {
         line-height: 3em;
         letter-spacing: 1px;
