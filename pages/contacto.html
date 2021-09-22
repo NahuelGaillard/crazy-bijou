@@ -56,20 +56,27 @@
 	<section class="p-1">
 		<div class="containerContactanos m-1 p-3 d-flex flex-wrap text-center">
 			<div class="m-auto p-1 col-11 m-lg-0 col-lg-6 order-1">
-				<form class="col-12">
+
+
+				<form class="col-12 needs-validation" method="POST" action="email.php" novalidate>
 					<div>
 						<div class="form-group text-center">
 							<label for="nombre">Nombre:</label>
 							<input class="form-control border border-dark" type="text" placeholder="Tu nombre" id="nombre" required>
+					
 						</div>
 						<div class="form-group">
-							<label for="corre">Correo:</label>
+							<label for="correo">Correo:</label>
 							<input class="form-control border border-dark" type="email" placeholder="Tu email" id="correo" required>
 						</div>
 						<div class="form-group ">
 							<label for="textArea">Tu mensaje:</label>
 							<textarea class="form-control border border-dark" id="textArea" rows="3" placeholder="Dejanos tu mensaje." required></textarea>
+							<input type="hidden" name="campoOculto" value="Crazy Bijou">
 						</div>
+					</div>
+					<div class="col-12">
+						<button class="btn border border-dark botonModal" type="submit" data-toggle="modal" data-target="#exampleModal">Enviar</button>
 					</div>
 					<div>
 						<button type="button" class="btn border border-dark botonModal" data-toggle="modal" data-target="#exampleModal">Enviar</button>
@@ -131,6 +138,26 @@
 		</div>
 	</footer> 
 <!-- ---------script--------- -->
+	<script>// Example starter JavaScript for disabling form submissions if there are invalid fields
+		(function () {
+		  'use strict'
+		
+		  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+		  var forms = document.querySelectorAll('.needs-validation')
+		
+		  // Loop over them and prevent submission
+		  Array.prototype.slice.call(forms)
+			.forEach(function (form) {
+			  form.addEventListener('submit', function (event) {
+				if (!form.checkValidity()) {
+				  event.preventDefault()
+				  event.stopPropagation()
+				}
+		
+				form.classList.add('was-validated')
+			  }, false)
+			})
+		})()</script>
 	<script  src="../node_modules/jquery/dist/jquery.js"></script>
 	<script  src="../node_modules/popper.js/dist/umd/popper.js"></script>
 	<script  src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
