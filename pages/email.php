@@ -15,12 +15,12 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'c2191146.ferozo.com  ******PONER EL HOST';                     //Set the SMTP server to send through
+    $mail->Host       = 'c2191146.ferozo.com ';                     //   PONER EL HOST    Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'test@c2191146.ferozo.com **********USUARIO EMAIL';                     //SMTP username
-    $mail->Password   = 'Camada@16620 *************** CONTRASEÑA';                         //SMTP password
+    $mail->Username   = 'test@c2191146.ferozo.com ';                     //SMTP username  USUARIO EMAIL
+    $mail->Password   = 'Camada@16620 ';                         //SMTP password  CONTRASEÑA
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
-    $mail->Port       = 465 "***************** SI ES NECESARIO CAMBIAR EL PUERTO";                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+    $mail->Port       = 465 ;                                    //  SI ES NECESARIO CAMBIAR EL PUERTO  TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     //Recipients
     $mail->setFrom('test@c2191146.ferozo.com', 'Camada 16620'); // Hacer coincidir con el username. (preferentemente)
